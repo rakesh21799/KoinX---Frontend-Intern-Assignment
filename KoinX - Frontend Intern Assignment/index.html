@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Crypto Dashboard</h1>
+  </header>
+
+  <main>
+    <section class="bitcoin-price">
+      <h2>Bitcoin Price</h2>
+      <div class="price">Loading...</div>
+      <div class="price-change">Loading...</div>
+    </section>
+
+    <section class="tradingview-chart">
+      <h2>BTCUSD Chart</h2>
+      <div id="tradingview-widget-container">
+        <!-- TradingView chart embed code will be dynamically generated here -->
+      </div>
+    </section>
+
+    <section class="trending-coins">
+      <h2>Trending Coins (24h)</h2>
+      <ul class="coin-list">
+        <!-- Trending coins will be dynamically populated here -->
+        <li>Loading...</li>
+        <li>Loading...</li>
+        <li>Loading...</li>
+      </ul>
+    </section>
+
+    <section class="you-may-also-like">
+      <h2>You May Also Like</h2>
+      <div class="carousel">
+        <!-- Carousel for trending coins will be dynamically populated here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Crypto Dashboard</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
